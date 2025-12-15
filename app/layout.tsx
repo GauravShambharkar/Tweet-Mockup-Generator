@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tweet Mockup Generator",
-  description: "Create realistic tweet mockups in seconds",
+  title: "Content Creator Toolkit - Professional Social Media Mockups",
+  description:
+    "Create stunning social media mockups with our suite of professional tools for content creators, marketers, and designers",
 };
 
 export default function RootLayout({
