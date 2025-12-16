@@ -12,6 +12,7 @@ import Image from "next/image";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
 
+
 interface TweetCardProps {
   data: Tweetdata;
 }
