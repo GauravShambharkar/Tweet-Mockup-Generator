@@ -22,6 +22,7 @@ export function TweetCard({ data }: TweetCardProps) {
 
   // Theme map
   const themeClasses = {
+    
     light: "bg-white text-black",
     dim: "bg-[#15202b] text-white",
     dark: "bg-black text-[#e7e9ea]",
