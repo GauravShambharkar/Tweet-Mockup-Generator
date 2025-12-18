@@ -62,7 +62,7 @@ const AboutPage = () => {
             </span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extralight tracking-tighter">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light tracking-tighter">
             Empowering{" "}
             <span className="bg-linear-to-r from-blue-400 to-blue-500 bg-clip-text text-transparent">
               Content Creators
@@ -101,7 +101,6 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-
       {/* Stats Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">

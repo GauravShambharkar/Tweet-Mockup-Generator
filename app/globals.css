@@ -37,5 +37,5 @@ body {
 }
 
 .txttight{
-  @apply font-extralight tracking-tighter
+  @apply font-light tracking-tighter
 }

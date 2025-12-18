@@ -25,8 +25,8 @@ export default function TweetMockGenerator() {
           data.theme === "light"
             ? "#ffffff"
             : data.theme === "dim"
-            ? "#15202b"
-            : "#000000",
+              ? "#15202b"
+              : "#000000",
       });
       const link = document.createElement("a");
       link.download = `tweet-mockup-${Date.now()}.png`;
@@ -51,14 +51,14 @@ export default function TweetMockGenerator() {
             >
               <ArrowLeft className="w-5 h-5" />
             </Link>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent">
+            <h1 className="text-xl font-light bg-gradient-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent">
               Tweet Mockup Generator
             </h1>
           </div>
           <button
             onClick={handleExport}
             disabled={isExporting}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full font-semibold transition-transform active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center gap-2 px-4 font-light py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition-transform active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isExporting ? (
               <RefreshCw className="animate-spin w-4 h-4" />
