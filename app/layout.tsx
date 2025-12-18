@@ -14,9 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Content Creator Toolkit - Professional Social Media Mockups",
-  description:
-    "Create stunning social media mockups with our suite of professional tools for content creators, marketers, and designers",
+  title: "kreatOS",
+  description: "Professional Tools for Content Creators",
 };
 
 export default function RootLayout({
