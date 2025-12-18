@@ -17,7 +17,7 @@ export default function Home() {
       name: "Tweet Mock Generator",
       description:
         "Create realistic, high-quality tweet mockups in seconds. Perfect for presentations, portfolios, and social media content.",
-      href: "/tweet-mockup-generator",
+      href: "tool/tweet-mockup-generator",
       icon: Twitter,
       gradient: "from-blue-500 to-sky-400",
       bgGradient: "from-blue-500/10 to-sky-400/10",
@@ -27,7 +27,7 @@ export default function Home() {
       name: "Instagram Post Mockup Generator",
       description:
         "Design stunning Instagram post mockups with customizable layouts and filters.",
-      href: "/insta-mockup-generator",
+      href: "tool/insta-mockup-generator",
       icon: Instagram,
       gradient: "from-pink-500 to-purple-500",
       bgGradient: "from-pink-500/10 to-purple-500/10",
@@ -37,7 +37,7 @@ export default function Home() {
       name: "LinkedIn Post Mockup Generator",
       description:
         "Generate professional LinkedIn posts with engagement metrics and branding.",
-      href: "/linkedin-mockup-generator",
+      href: "tool/linkedin-mockup-generator",
       icon: Linkedin,
       gradient: "from-blue-600 to-indigo-600",
       bgGradient: "from-blue-600/10 to-indigo-600/10",
@@ -48,20 +48,7 @@ export default function Home() {
   return (
     <div className="min-h-screen ">
       {/* Header */}
-      <header className="border-b bg-white/80 dark:bg-[#0a0a0a]/80 backdrop-blur-lg border-gray-200 dark:border-zinc-800 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-sky-400 flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-white" />
-              </div>
-              <h1 className="text-2xl font-bold tracking-tighter bg-gradient-to-t from-blue to-[#8bb5ff] dark:from-[#2f7bff] dark:to-[#87b3ff] bg-clip-text text-transparent">
-                Creators Toolkit
-              </h1>
-            </div>
-          </div>
-        </div>
-      </header>
+      
 
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24  ">
