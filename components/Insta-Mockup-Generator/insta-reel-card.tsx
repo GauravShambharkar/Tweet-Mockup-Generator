@@ -118,7 +118,7 @@ export const InstaReelCard = ({ data }: InstaReelCardProps) => {
                     <div className="flex items-center gap-1">
                         <span className="text-white text-sm font-semibold drop-shadow-md">{data.user.username}</span>
                         {data.user.isVerified && (
-                            <BadgeCheck className="w-3.5 h-3.5 text-blue-400 fill-current drop-shadow-md" />
+                            <BadgeCheck className="w-4 h-4 text-white fill-[#0095f6]" />
                         )}
                     </div>
                     <button className="px-2 py-0.5 border border-white/50 rounded-md text-[10px] text-white font-semibold hover:bg-white/10 transition-colors drop-shadow-md">

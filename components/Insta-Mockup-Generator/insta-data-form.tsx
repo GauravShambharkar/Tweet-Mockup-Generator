@@ -79,7 +79,8 @@ export const InstaDataForm = ({ data, onChange }: InstaDataFormProps) => {
                 <div className="flex gap-4">
                     <button
                         onClick={() => handleChange("theme", "", "light")}
-                        className={cn(
+                        disabled={data.type === "reel"}
+                        className={data.type === "reel" ? "opacity-50 cursor-not-allowed flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border " : cn(
                             "flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border transition-all",
                             data.theme === "light"
                                 ? "bg-blue-50 border-blue-200 text-blue-600 dark:bg-blue-900/20 dark:border-blue-800"
@@ -91,7 +92,8 @@ export const InstaDataForm = ({ data, onChange }: InstaDataFormProps) => {
                     </button>
                     <button
                         onClick={() => handleChange("theme", "", "dark")}
-                        className={cn(
+                        disabled={data.type === "reel"}
+                        className={data.type === "reel" ? "opacity-50 cursor-not-allowed flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border " : cn(
                             "flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border transition-all",
                             data.theme === "dark"
                                 ? "bg-blue-50 border-blue-200 text-blue-600 dark:bg-blue-900/20 dark:border-blue-800"

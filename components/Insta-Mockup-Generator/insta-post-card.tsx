@@ -65,7 +65,7 @@ export const InstaPostCard = ({ data }: InstaPostCardProps) => {
                                 {data.user.username}
                             </span>
                             {data.user.isVerified && (
-                                <BadgeCheck className="w-4 h-4 text-blue-500 fill-current" />
+                                <BadgeCheck className="w-4 h-4 text-white fill-[#0095f6]" />
                             )}
                         </div>
                         {data.content.location && (
